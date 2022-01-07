@@ -1,0 +1,30 @@
+*{
+    font-family:    Tahoma, Geneva, Verdana, sans-serif;
+}
+.midle{
+    min-height: 50vh;
+    max-height: 50vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.midle p{
+    padding-left: 25    vh;
+    font-size: 3vh;
+    margin: 15vh;
+}
+.midle button{
+    height: 20vh;
+    width: 20vh;
+    border: none;
+    border-radius: 1em 4em 1em 4em / 2em 3em 2em 3em;
+    background-color: orange;
+    padding: 3vh;
+    color:black;
+    font-size: 3vh;
+    margin-right: 15vh;
+    text-align: top;
+}

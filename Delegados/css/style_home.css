@@ -1,0 +1,59 @@
+:root{
+  --Turquesa:#00AE9D;
+  --Darkgreen: #003641;
+  --Purple:#49479D;
+  --mediumgreen:#7DB61C;
+  --ligthgreen: #c9d200;
+}
+
+*
+html {
+  width: 100vh;
+}
+#all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left {
+  background-image: url(../img/Imagem1.png);
+  background-repeat: no-repeat;
+  width: 60vw;
+  background-color: #83cfe9;
+  background-size: cover;
+  background-position: top;
+}
+#logo {
+  margin: 11% 1% 0% 32%;
+  padding: 1%;
+  border-radius: 3%;
+}
+.right {
+  color: white;
+  background-image: url(../img/01.png);
+  width: 40vw;
+  height: 100vh;
+}
+.test {
+  background: rgba(0, 54, 65, 0.5);
+}
+.right h1 {
+  font-size: 25px;
+  margin: 5% 5% 2%;
+  font-family: "Tahoma";
+  text-align: center;
+}
+.right p {
+  font-size: 20px;
+  margin: 0% 5% 5%;
+  text-align: center;
+}
+#login {
+  border-radius: 2%;
+  padding: 30px 0px 30px 30px;
+  font-family: "Tahoma";
+  margin: 30% 25% 25% 25%;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+}

@@ -1,0 +1,25 @@
+html {
+  height: 100vh;
+  background-image: url(../img/01.png);
+  font-family: "tahoma";
+}
+img {
+  margin: 1%;
+}
+.questions {
+  background-color: #00ae9d;
+  margin: 26vh 30vw;
+}
+.questions h1 {
+  font-size: 5vh;
+  margin: 0 2% 2vh;
+}
+.questions button {
+  margin: 0 85% 1vh;
+}
+
+.container {
+  display: flex;
+  font-size: 3vh;
+  margin: 2vh 20%;
+}
