@@ -1,0 +1,39 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    background-color: rgba(106, 164, 197, 0.445);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 2rem 0;
+}
+.menu{
+    margin: 5rem auto;
+}
+.option{
+    height: 9vh;
+    width: 40vw;
+    background-color: aqua;
+    border: 0.1px solid;
+    border-bottom: none;
+}
+.option:hover{
+    background-color: rgb(12, 185, 185);
+}
+.option:last-child{
+    border-bottom: 0.1px solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.social{
+    width: 5rem;
+}
